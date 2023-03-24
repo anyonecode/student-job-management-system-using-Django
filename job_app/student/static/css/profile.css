@@ -1,0 +1,142 @@
+body{
+    background-image:url('/static/media/profile_bg1.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    width: 100%;
+    border-radius: 6px;
+}
+nav{
+    border-style: solid;
+    border-color: #bababa;
+    border-width: 1px;
+}
+.button{
+    float: right;
+}
+.navbar a{
+    margin-left: 20px;
+}
+.page{
+    display: flex;
+    gap: 150px;
+}
+.image img{
+    width: 600px;
+    margin-top: 200px;
+}
+.form{
+    margin-left: 100px;
+    background-color: rgba(207, 235, 252, 0.721);
+    width: 500px;
+    padding-left:55px ;
+    padding-top:30px ;
+    padding-bottom: 30px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border-color: #bababa;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+#id_profile{
+    border-radius: 3px;
+    margin-left: 47px;
+}
+#id_name{
+    padding: 3px 15px;
+    width: 295px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 47px;
+}
+input:focus {
+    outline: none;
+}
+#id_email{
+    width: 295px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 1px;
+    margin-left: 47px;
+    padding: 3px 15px;
+}
+#id_phone{
+    width: 295px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 47px;
+    padding: 3px 15px;
+}
+#id_address{
+    width: 295px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 35px;
+    padding: 3px 15px;
+}
+#id_college{
+    width: 290px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 40px;
+    padding: 3px 15px;
+}
+#id_qualification{
+    width: 100px;
+    height: 25px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 10px;
+    padding: 3px 15px;
+}
+#id_company{
+    width: 100px;
+    height: 25px;
+    border-radius:3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 30px;
+    padding: 3px 15px;
+}
+#id_skill{
+    width: 250px;
+    height: 100px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-left: 60px;
+}
+.save input{
+    width: 295px;
+    height: 40px;
+    margin-left: 50px;
+    border: none;
+    border-color: #808080;
+    background-color: rgb(21, 59, 246);
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    font-size: 17px;
+}
+#id_resume{
+    border-radius: 3px;
+    margin-left: 40px;
+
+}
